@@ -27,7 +27,9 @@ addpath(genpath('csi_tool_matlab/Activity/'))
 % paths for svm scripts
 addpath(genpath('libsvm-3.22/'))
 
-% extract CSI from .dat files to .mat with interpolation 
+% extract CSI from .dat files to .mat with linear interpolation 
+% see fall_interp_dat_to_mat_lab2.m file to see the path for data traces
+
 fall_interp_dat_to_mat_lab2
 % extract CSI from .mat files for 'lab2' data  set
 fall_lab2_data_extract
