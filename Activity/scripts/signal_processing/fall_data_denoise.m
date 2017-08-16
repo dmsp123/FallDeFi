@@ -53,7 +53,7 @@ for i = 1:length(downs_fall_cell_array)
     noisy_sig = downs_fall_cell_array{i};
     for j = 1:30
 %         denoised_sig(j,:) = wden(noisy_sig(j,:),'sqtwolog','s',scal,5,'db3');
-        denoised_sig(j,:) = wden(noisy_sig(j,:),'sqtwolog','s',scal,10,'sym3');
+        denoised_sig(j,:) = wden(noisy_sig(j,:),'sqtwolog','s',scal,4,'sym3');
 
     end
 %     figure;hold on;
